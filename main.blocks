@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="_EkJen!270JydUskK3Pl" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="6-PDJ}{Xk|gZeO)uKJ2{">Player</variable><variable type="KIND_SpriteKind" id="|3MuBDTuSQh:B2r/)/HL">Projectile</variable><variable type="KIND_SpriteKind" id="z{}V3zP7Z3Ef#wZ_Fxqd">Food</variable><variable type="KIND_SpriteKind" id="EOM`;Wy1j$T8Mr_52%EX">Enemy</variable><variable id="nF8mX~3GsgS7@3XT3L8.">mySprite</variable><variable id="*Eo~];_;sXdEsjzhgVA-">Monke</variable></variables><block type="pxt-on-start" id="_EkJen!270JydUskK3Pl" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="R25`*%xuLF%e`Wn3R(Bv"><field name="VAR" id="*Eo~];_;sXdEsjzhgVA-">Monke</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="DrkK7[W@yDvNXlCu,8lT"><value name="img"><shadow type="screen_image_picker" id="+AiO?(b~_w]4}N=6wEoA"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"+AiO?(b~_w]4}N=6wEoA"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ILd9u65bEm~9$[Fiz0(_"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesaytext" id="::iU-^rNdODerGI7M57t"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="this"><block type="variables_get" id="YHEGqKP`BMAqaidcnTb1"><field name="VAR" id="*Eo~];_;sXdEsjzhgVA-">Monke</field></block></value><value name="text"><shadow type="text" id="WdqAS=Q,SQebH2)EMSjV"><field name="TEXT">Dick</field></shadow></value><value name="timeOnScreen"><shadow type="timePicker" id="u$)w9h!^x0^Qo5Zx?T#j"><field name="ms">500</field></shadow></value><value name="animated"><shadow type="logic_boolean" id="e~wh;;5ZAY.3HE|dzN/o"><field name="BOOL">FALSE</field></shadow></value></block></next></block></statement></block></xml>
