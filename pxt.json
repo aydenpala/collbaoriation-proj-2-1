@@ -2,7 +2,8 @@
     "name": "collbaoriation proj 2 ",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "sprite-scaling": "*"
     },
     "files": [
         "main.blocks",
