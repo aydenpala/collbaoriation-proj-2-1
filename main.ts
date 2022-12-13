@@ -2,6 +2,7 @@ namespace SpriteKind {
     export const CursorKind = SpriteKind.create()
 }
 sprites.onOverlap(SpriteKind.CursorKind, SpriteKind.Player, function (sprite, otherSprite) {
+    pause(1000)
     Monke.destroy()
     scene.setBackgroundImage(img`
         7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
