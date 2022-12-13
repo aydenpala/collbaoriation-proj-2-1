@@ -144,6 +144,9 @@ sprites.onOverlap(SpriteKind.CursorKind, SpriteKind.Player, function (sprite, ot
         . . . . . . . . . . . . . . . . 
         `, 50, 50)
 })
+sprites.onOverlap(SpriteKind.CursorKind, SpriteKind.Projectile, function (sprite, otherSprite) {
+    info.setScore(0)
+})
 let Banana: Sprite = null
 let Monke: Sprite = null
 Monke = sprites.create(img`
@@ -165,23 +168,3 @@ Monke = sprites.create(img`
     . . . . f f f f f f f f f . . . 
     `, SpriteKind.Player)
 Monke.sayText("I need my bananas! Can you help me?")
-let Cursor = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . f . . . . . . . . 
-    . . . . . . f 1 f . . . . . . . 
-    . . . . . f 1 1 1 f . . . . . . 
-    . . . . f 1 1 1 1 1 f . . . . . 
-    . . . f 1 1 1 1 1 1 1 f . . . . 
-    . . f 1 1 1 1 1 1 1 1 1 f . . . 
-    . . f f f f f f f f f f f . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    `, SpriteKind.CursorKind)
-scaling.scaleToPixels(Cursor, 25, ScaleDirection.Uniformly, ScaleAnchor.Middle)
-controller.moveSprite(Cursor)
